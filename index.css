@@ -1,0 +1,29 @@
+body {
+    box-sizing: border-box;
+    margin: 0%;
+    /* overflow: hidden; */
+}
+
+.area {
+    position: absolute;
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.entity {
+    position: relative;
+    z-index: 2;
+    height: fit-content;
+    width: fit-content;
+    top: 0px;
+    left: 0px;
+    transform: scale(0.15);
+}
+
+.timeCounter {
+    position: relative;
+    z-index: 5;
+}
